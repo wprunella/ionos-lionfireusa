@@ -1,0 +1,37 @@
+vendor
+web/core
+web/modules/contrib
+web/themes/contrib
+web/profiles/contrib
+web/libraries
+web/.csslintrc
+web/.editorconfig
+web/.eslintignore
+web/.eslintrc.json
+web/.gitattributes
+web/.ht.router.php
+web/INSTALL.txt
+web/README.txt
+web/autoload.php
+web/example.gitignore
+web/index.php
+web/robots.txt
+web/update.php
+web/web.config
+web/sites/simpletest/
+web/README.md
+/.editorconfig
+/.gitattributes
+/.bashrc
+/drush.phar
+/composer.phar
+
+web/.htaccess
+
+# Ignore configuration files that may contain sensitive information.
+web/sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+web/sites/*/files
+web/sites/*/private
+
