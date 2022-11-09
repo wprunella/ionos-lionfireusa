@@ -1,0 +1,5 @@
+name: 'Image SRC Absolute'
+type: module
+core_version_requirement: ^9
+description: 'Set image src from relative to absolute url'
+package: 'Image Automation'

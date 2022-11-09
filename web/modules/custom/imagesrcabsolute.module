@@ -1,0 +1,14 @@
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function IMAGESRCABSOLUTE_preprocess_image(&$variables) {
+  if (isset($variables['uri'])) {
+    // Change the image src path to absolute path.
+    $variables['attributes']['src'] = file_create_url($variables['uri']);
+    // For drupal > 9.3.x
+    // @see https://www.drupal.org/node/2940031
+    /** @var \Drupal\Core\File\FileUrlGenerator $file_url_generator */
+    $file_url_generator = \Drupal::service('file_url_generator');
+    $variables['attributes']['src'] = $file_url_generator->generateAbsoluteString($variables['uri']);
+  }
+}
