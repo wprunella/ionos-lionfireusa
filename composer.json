@@ -17,11 +17,14 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
+        "drupal/consumer_image_styles": "^4.0",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/ctools": "^4.0",
+        "drupal/gatsby": "^2.0@RC",
         "drupal/pathauto": "^1.11",
+        "drupal/remote_image": "^2.0",
         "drupal/token": "^1.11",
         "drush/drush": "^11.2"
     },
