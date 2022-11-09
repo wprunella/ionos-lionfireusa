@@ -1,4 +1,4 @@
-name: ionos-lionfireusa
+name: ionoslionfireusa
 recipe: drupal9
 config:
   webroot: web
