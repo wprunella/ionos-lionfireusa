@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9.4",
         "drupal/ctools": "^4.0",
         "drupal/gatsby": "^2.0@RC",
+        "drupal/insert": "^2.0@beta",
         "drupal/pathauto": "^1.11",
         "drupal/token": "^1.11",
         "drush/drush": "^11.2"
